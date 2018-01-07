@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Trò chơi số 7 may mắn"
+        android:textColor="@color/colorAccent"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="chò chơi với 3 ô số ngẫu nhiên, khi dừng lại với 3 ô số 777 bạn sẽ chiến thắng"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:gravity="center"
+        />
+
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/holo_blue_light"
+            tools:text="0"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            tools:text="0" />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:background="@android:color/holo_purple"
+            android:gravity="center"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            tools:text="0" />
+
+
+
+
+    </LinearLayout>
+
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="DỪNG" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Người phát triển: Nguyễn Thành Đạt"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
+
